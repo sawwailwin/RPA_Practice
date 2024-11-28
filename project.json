@@ -1,19 +1,19 @@
 {
-  "name": "Working With Variable",
-  "projectId": "05a28f35-9c61-4aa2-87e8-d61e35f207a5",
-  "description": "Training Project",
-  "main": "Main.xaml",
+  "name": "VariablesAndArguments",
+  "projectId": "d3a98c5c-ed9a-4fec-b620-bc945608e3ba",
+  "description": "Read data to store in variable",
+  "main": "ReadData.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.23.2-preview]",
-    "UiPath.Mail.Activities": "[1.22.1]",
-    "UiPath.System.Activities": "[24.2.0-preview]",
-    "UiPath.Testing.Activities": "[24.2.0-preview]",
-    "UiPath.UIAutomation.Activities": "[24.2.0-preview]"
+    "UiPath.Excel.Activities": "[2.24.3]",
+    "UiPath.Mail.Activities": "[1.23.11]",
+    "UiPath.System.Activities": "[24.11.0-preview]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.UIAutomation.Activities": "[24.11.1-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "24.2.1.0",
+  "studioVersion": "24.10.6.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -49,8 +49,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "c9fab1cc-c408-4c59-9e9a-30d94877e7e7",
+      "filePath": "ReadData.xaml",
+      "uniqueId": "f19cd56d-cf60-4c1f-8366-60e602be9b4d",
       "input": [],
       "output": []
     }
