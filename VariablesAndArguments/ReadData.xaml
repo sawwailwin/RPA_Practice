@@ -97,10 +97,10 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1246,780" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="scg:List(x:String)" Name="fileNameList" />
-      <Variable x:TypeArguments="scg:List(x:String)" Name="prjNameList" />
-      <Variable x:TypeArguments="scg:List(x:String)" Name="ReasonList" />
-      <Variable x:TypeArguments="scg:List(x:String)" Name="StatusList" />
+      <Variable x:TypeArguments="scg:List(x:String)" Default="[New List(Of String)]" Name="fileNameList" />
+      <Variable x:TypeArguments="scg:List(x:String)" Default="[New List(Of String)]" Name="prjNameList" />
+      <Variable x:TypeArguments="scg:List(x:String)" Default="[New List(Of String)]" Name="ReasonList" />
+      <Variable x:TypeArguments="scg:List(x:String)" Default="[New List(Of String)]" Name="StatusList" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -116,7 +116,7 @@
           </ActivityAction.Argument>
           <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,616" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Name="InputPath" />
+              <Variable x:TypeArguments="x:String" Default="C:\Users\25-00211\Desktop\Saw Wai Lwin\UIPATH(RPA) TRAINING WITH KKT\UiPath\VariablesAndArguments\Input Folder" Name="InputPath" />
               <Variable x:TypeArguments="x:String" Name="files" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
